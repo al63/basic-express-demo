@@ -1,3 +1,5 @@
-install stuff: npm install
+This is a basic Node app using express. The only purpose of this is to
+give an idea how you can setup an express app.
 
+install stuff: npm install
 run stuff: node ./src/server.js
