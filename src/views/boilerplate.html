@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}AN APP{%endblock%}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        {% block stylesheets %}
+        <link rel="stylesheet" href="/styles/base.css" />
+        {% endblock %}
+
+    </head>
+	<body>
+        <h1> This is our boilerplate header </h1>
+        {% block content %}{% endblock %}
+    </body>
+</html>

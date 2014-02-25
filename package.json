@@ -1,0 +1,8 @@
+{
+  "name": "test-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">= 3.1.0",
+    "swig": ">= 1.0.0"
+  }
+}

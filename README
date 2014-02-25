@@ -1,0 +1,3 @@
+install stuff: npm install
+
+run stuff: node ./src/server.js
